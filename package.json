@@ -1,0 +1,26 @@
+{
+  "name": "bitbucket-downloads-client",
+  "version": "0.0.1",
+  "description": "A simple client for BitBucket downloads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trollixx/bitbucket-downloads-client.git"
+  },
+  "keywords": [
+    "bitbucket"
+  ],
+  "author": "Oleg Shparber <trollixx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trollixx/bitbucket-downloads-client/issues"
+  },
+  "homepage": "https://github.com/trollixx/bitbucket-downloads-client",
+  "dependencies": {
+    "cheerio": "~0.19.0",
+    "request": "~2.54.0"
+  }
+}
