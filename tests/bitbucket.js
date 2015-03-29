@@ -108,6 +108,17 @@ describe('A good guy', function () {
     });
   });
 
+  it('checks listing with file name matching', function (done) {
+    client.list(/^stream/, function (err, items) {
+      expect(err).toBeNull();
+      expect(Array.isArray(items)).toBeTruthy();
+      expect(items.length).toEqual(1);
+      expect(items[0].name).toEqual('stream.txt');
+
+      done();
+    });
+  });
+
   it('deletes uploaded files', function (done) {
     client.remove(idsToRemove, function (err) {
       expect(err).toBeNull();
