@@ -1,5 +1,13 @@
 sudo: false
 language: node_js
 node_js:
-  - "0.12"
-  - "0.10"
+- '0.12'
+- '0.10'
+deploy:
+  provider: npm
+  email: trollixx@gmail.com
+  api_key:
+    secure: fb5+h/yJsqYviSzpsZUx5YGrDbDUf4OiabRyLrXSQtnOYox7ZCM2vrWzjU9JOxJajK+o33S/vqCFVh1pMkUNBvqj7tJIyCkQnVIxCKWeJVdnHeGnyPJIu7mMCLpgF2G5A5v0P9rvWr4hGKmpOdTg2y55Rg9Ir2CNxErKQygu68o=
+  on:
+    tags: true
+    repo: trollixx/bitbucket-downloads-client
