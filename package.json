@@ -1,6 +1,6 @@
 {
   "name": "bitbucket-downloads-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple client for BitBucket downloads",
   "main": "index.js",
   "scripts": {
